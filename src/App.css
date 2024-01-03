@@ -1,0 +1,19 @@
+.nav_container{
+  background-color: aqua;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.logo{
+  font-size: 25px;
+  color: red;
+}
+
+.buttons{
+  display: flex;
+  gap: 15px;
+}
+.buttons li{
+  list-style-type: none;
+}
