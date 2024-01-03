@@ -5,7 +5,7 @@ import { FaQuestionCircle } from "react-icons/fa";
 import Image2 from "../../images/visa.svg"
 export const UnderBanner=()=>{
     return(
-        <div className="flex flex-col bg-gray-800 w-full min-h-[70vh] mt-7 p-2">
+        <div className="flex flex-col bg-gray-800 w-full min-h-[70vh] mt-7 p-5">
             <div className=" flex justify-evenly">
             <div className="hidden sm:flex flex-col gap-2 mt-12">
                 <p className="text-[15px] text-[#6a6767]">ABOUT</p>
