@@ -2,9 +2,9 @@ import { GetMYStore } from "./Estore";
 
 function Cart(){
     const { arr, Del} = GetMYStore()
-    console.log(arr)
+    
     return(
-        <div className="grid grid-cols-1 md:grid md:grid-cols-3  items-center ">
+        <div className={`grid ${arr.length > 0 ? "md:grid-cols-3" :"md:grid-cols-1"} grid-cols-1 md:grid min-h-[85vh] items-center `}>
         {arr && arr.length > 0 ? arr.map((t, i)=>{
        
        return(
@@ -25,7 +25,7 @@ function Cart(){
         </div>
        )
    })
-   : "No Data"}
+   : <div className="flex justify-center items-center text-xl w-full">sorry,no data...!</div>}
     
 </div>
 
