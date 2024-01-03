@@ -82,7 +82,7 @@ import { GetMYStore } from "./Estore";
             {/* set cart button */}
 
             <div className="hidden sm:block ">
-                  <Link to ="/cart" className=" flex text-[white] items-center gap-3 text-[17px] font-bold "><FaShoppingCart className="" /><span className=" text-white bg-orange-700  sm:border-2 text-sm absolute top-2 w-5 text-center right-[87px] rounded-3xl">{arr.length}</span>Cart</Link>
+                  <Link to ="/cart" className=" flex text-[white] items-center gap-3 text-[17px] font-bold "><FaShoppingCart className="" /><span className=" text-white bg-orange-700  sm:border-2 text-sm absolute top-1 w-5 text-center right-[87px] rounded-3xl">{arr.length}</span>Cart</Link>
             </div>
 
             {/* menu button */}
