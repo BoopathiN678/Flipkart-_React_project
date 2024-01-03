@@ -15,7 +15,7 @@ export const EcomFetch=()=>{
 
     return(
         
-        <div className="grid grid-cols-1 mt-5 md:grid md:grid-cols-3  gap-5 p-3 sm:pt-[400px] ">
+        <div className="grid grid-cols-1 mt-5 md:grid md:grid-cols-3  gap-5 p-3 sm:pt-[200px] ">
         {Product && Product.map((val,i)=>{
            
             return(
