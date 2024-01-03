@@ -4,7 +4,7 @@ function Cart(){
     const { arr, Del} = GetMYStore()
     
     return(
-        <div className={`grid ${arr.length > 0 ? "md:grid-cols-3" :"md:grid-cols-1"} grid-cols-1 md:grid min-h-[85vh] items-center `}>
+        <div className={`grid  ${arr.length > 0 ? "md:grid-cols-3" :"md:grid-cols-1"} grid-cols-3 gap-3 p-6 md:grid min-h-[85vh] items-center `}>
         {arr && arr.length > 0 ? arr.map((t, i)=>{
        
        return(
