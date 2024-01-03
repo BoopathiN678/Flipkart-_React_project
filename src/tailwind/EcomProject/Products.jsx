@@ -13,7 +13,7 @@ function Products(){
 
     return(
         <div>
-                {Products ? <div className="border-4 text-center justify-center items-center flex flex-col sm:flex sm:flex-row  sm:items-center gap-5 sm:p-6 bg-[#f0ecec] ">
+                {Products ? <div className="border-4 text-center min-h-[80vh] justify-center items-center flex flex-col sm:flex sm:flex-row  sm:items-center gap-5 sm:p-6 bg-[#f0ecec] ">
                 <div className="hover:scale-105 duration-500 sm:hover:scale-105 sm:duration-500 cursor-pointer p-5">
                 <img className="w-44 h-44 rounded-lg "  src={Products.images[0]} alt="" />
                 </div>
