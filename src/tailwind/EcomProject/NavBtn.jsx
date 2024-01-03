@@ -11,7 +11,7 @@ export const NavBtn=()=>{
                 <button className="font-sans font-bold text-[15px] hover:text-[#6464fb] flex gap-1">Home&Furniture<span className="   text-[20px]  hover:rotate-180 hover:[blue]"><MdKeyboardArrowDown /></span></button>
                 <button className="font-sans font-bold text-[15px] hover:text-[#6464fb] flex gap-1">Sports,Books&More<span className="   text-[20px]  hover:rotate-180 hover:[blue]"><MdKeyboardArrowDown /></span></button>
                 <button className="font-sans font-bold text-[15px] hover:text-[#6464fb] flex gap-1">Flights<span className="   text-[20px]  hover:rotate-180 hover:[blue]"><MdKeyboardArrowDown /></span></button>
-                <button className="font-sans font-bold text-[15px] hover:text-[#6464fb] w-[200px] flex gap-1">OffersZone<span className="  text-[20px]  hover:rotate-180 hover:[blue]"><MdKeyboardArrowDown /></span></button>
+                <button className="font-sans font-bold text-[15px] hover:text-[#6464fb] flex gap-1">OffersZone<span className="  text-[20px]  hover:rotate-180 hover:[blue]"><MdKeyboardArrowDown /></span></button>
             
         </div>
     )
