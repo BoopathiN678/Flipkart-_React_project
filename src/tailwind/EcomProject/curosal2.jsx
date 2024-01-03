@@ -27,8 +27,8 @@ export default function Soul() {
           <Slide index={2}><img  src={"mbladd5.png"}  alt=""   className='w-full h-[67vh] rounded-md transform-gpu mx-auto'  /></Slide>
           </div>
         </Slider>
-        <ButtonBack ><FaLessThan className='absolute top-[45%] left-6 text-3xl bg-[#faf9f9] w-[55px] h-[55px] p-4  text-[#323131] opacity-60 hover:opacity-40 rounded-full' /></ButtonBack>
-        <ButtonNext ><FaGreaterThan className='absolute top-[45%] right-6 text-3xl bg-[#faf9f9] w-[55px] h-[55px] p-4 rounded-full opacity-60 hover:opacity-40 text-[#323131]' /></ButtonNext>
+        <ButtonBack ><FaLessThan className='absolute top-[54%] left-6 text-3xl bg-[#faf9f9] w-[55px] h-[55px] p-4  text-[#323131] opacity-60 hover:opacity-40 rounded-full' /></ButtonBack>
+        <ButtonNext ><FaGreaterThan className='absolute top-[54%] right-6 text-3xl bg-[#faf9f9] w-[55px] h-[55px] p-4 rounded-full opacity-60 hover:opacity-40 text-[#323131]' /></ButtonNext>
       </CarouselProvider>
       </div>
     );
