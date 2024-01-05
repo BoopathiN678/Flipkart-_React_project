@@ -13,9 +13,9 @@ function Cart(){
         <img className="w-44 h-44 rounded-lg "  src={t.images[0]} alt="" />
         </div>
         <div className="flex flex-col">
-        <p className="text-[black] font-sans "> Brand:{t.brand}</p>
-        <p className="text-[black] font-bold"> From:{t.price}</p>
-        <p className="text-[black] font-sans"> Ratings: <span className="text-[#d8c13e]">{t.rating}</span></p>
+       <p className="text-[black] font-sans "> Brand:{t.brand}</p>
+       <p className="text-[black] font-sans"> Ratings: <span className="text-[#d8c13e]">{t.rating}</span></p>
+       <p className="text-[black] font-bold"> From:{t.price}</p>
         <div className="p-4">
         <button onClick={()=>Del(i)} className="hover:scale-105 duration-150 sm:hover:scale-105 sm:duration-150 border-2 p-1 border-[#635f5f] text-[black] w-28  ">Throw out</button>
         </div>
