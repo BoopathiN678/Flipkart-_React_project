@@ -8,7 +8,6 @@ const [arr,setarr] = useState([])
 
 
 const Add=(val)=>{
-    console.log(val)
     let t=false
     arr.map((v)=>{
       if(val.id === v.id){
